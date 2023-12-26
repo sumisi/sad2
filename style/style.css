@@ -1,0 +1,169 @@
+header{
+    background-color: rgba(235, 230, 230, 0.877);
+    height: 50px;
+    text-align: center;
+    width: 100%;
+	position: fixed;
+}
+a {
+	position: relative;
+	color: #df7171;
+	cursor: pointer;
+	line-height: 1;
+	text-decoration: none;
+}
+a:after {
+	display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 2px; 
+	background-color: #df7171; 
+	content: "";
+	transition: width 0.5s ease-out;
+}
+a:hover:after,
+a:focus:after {
+	width: 100%;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-block{
+    padding-top: 15px;
+    text-align: center;
+    font: 20px Arial;
+}
+.block{
+	color: rgb(110, 112, 228);
+	text-align: center;
+	font: 30px Arial;
+	padding-top: 400px;
+	width: 100%;
+	height: 600px;
+	background-image: url(../img/wp9221921.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.button{
+	border: medium none;
+	background-image: none; 
+	background: transparent;
+	background-color: transparent;
+}
+.Aboutme{
+	padding-top: 200px;
+	color: #d2002e;
+	border-top: 2px solid black;
+	text-align: center;
+    font: 20px Arial;
+	background-image: url(../img/89f7bf394959b085c6627aab07b0196d.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 750px;
+}
+.portfolio{
+	padding-top: 100px;
+	color: #d2002e;
+	border-top: 2px solid black;
+	text-align: center;
+    font: 20px Arial;
+	background-image: url(../img/Без\ названия.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 750px;
+}
+.bee img{
+	padding-top: 100px;
+	width: 600px;
+}
+.flex-block1{
+	color: #d2002e;
+    text-align: center;
+    font: 20px Arial;
+	border: 2px solid #d2002e;
+	margin: 100px 20px;
+	width: 500px;
+	height: 100%;
+}
+.services{
+	padding-top: 100px;
+	border-top: 2px solid black;
+	text-align: center;
+	color: rgb(107, 184, 235);
+    font: 20px Arial;
+	background-image: url(../img/a89b925aa7ff78c16b28679292b02c9c.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.flex-block2{
+	border: 2px solid rgb(91, 157, 231);
+	margin: 100px 20px;
+	width: 400px;
+	height: 100%;
+}
+.h2{
+	margin-top: 100px;
+	text-align: center;
+	margin-bottom: 200px;
+}
+.contacts{
+	color: #d2002e;
+	border-top: 2px solid rgb(235, 230, 230, 0.877);
+    font: 20px Arial;
+	background-image: url(../img/wp9221921.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 750px;
+	
+}
+.flex-container1{
+	display: flex;
+}
+.flex-block3{
+	border: 2px solid #d2002e;
+	margin-bottom: 40px;
+	margin-left: 200px;
+	padding-left: 10px;
+	width: 300px;
+	height: 50px;
+}
+.left{
+	width: 600px;
+    margin-left: 400px;
+	padding-left: 30px;
+	border-left: 1px solid #d2002e;
+}
+button{
+	margin-top: 10px;
+	color: #d2002e;
+}
+footer{
+    background-color: rgba(235, 230, 230, 0.877);
+    height: 51px;
+    width: 100%;
+}
+.flex-container2{
+	text-align: left;
+}
